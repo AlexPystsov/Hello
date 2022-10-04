@@ -1,0 +1,21 @@
+public class Conc {
+
+    public static String concatStr() {
+
+        String string1 = "My name is Sasha.";
+        String string2 = " I will be a tester.";
+        String string3 = string1.concat(string2);
+
+        return string3 ;
+    }
+
+        public static void main(String[] args) {
+            System.out.println(concatStr());
+
+        }
+}
+
+
+My name is Sasha. I will be a tester.
+
+Process finished with exit code 0
