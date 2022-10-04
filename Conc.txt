@@ -1,21 +1,19 @@
 public class Conc {
 
-    public static String concatStr() {
+    public static boolean strSize() {
 
-        String string1 = "My name is Sasha.";
-        String string2 = " I will be a tester.";
-        String string3 = string1.concat(string2);
-
-        return string3 ;
+        String s1 = "My name is Sasha.";
+        int len1 = s1.length();
+        System.out.println( len1 );
+        return true;
     }
 
+
         public static void main(String[] args) {
-            System.out.println(concatStr());
+            System.out.println(strSize());
 
         }
 }
 
-
-My name is Sasha. I will be a tester.
-
-Process finished with exit code 0
+17
+true
